@@ -1,0 +1,23 @@
+.list-icon-topbar {
+  display: flex;
+  gap: 24px;
+
+  .Polaris-Icon__Svg {
+    fill: #fff !important;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  .Polaris-TopBar-Menu__Activator:hover {
+    background-color: unset;
+  }
+
+  .Polaris-TopBar-Menu__Activator p {
+    color: #fff;
+  }
+}
+
+.Polaris-Navigation {
+  background-color: #fff !important;
+}
